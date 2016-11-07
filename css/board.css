@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Board Initialization */
+div#board{width: 500px; height: 150px; background: #abc; padding:0 7px; border: 1px solid lime; position: absolute; left: 50%; top: 50%; margin-left: -250px; /* == half of the width of the element */ margin-top: -75px; /* == half of the height of the element */}
+div#board ul#board_ul{}
+div#board ul#board_ul li.column_li{float: left; border:0px solid #FFF; width:32%; min-height:150px; margin: 0 auto;}
+div#board ul#board_ul li#disk_column_two.column_li{width:35%; margin:0 2px;}
+
+div ul li ul#dnd_column_one{}
+div ul li ul#dnd_column_two{}
+div ul li ul#dnd_column_three{}
+
+div ul li ul.dnd_column{}
+
+div#board ul#board_ul li.disk_column_one,
+div#board ul#board_ul li.disk_column_two,
+div#board ul#board_ul li.disk_column_three{}
+
+div#board ul#board_ul li.column_li ul.dnd_column li {margin: 1px auto;}
+
+div#board ul#board_ul li.column_li ul.dnd_column li.base{width: 100%; height: 22px; background: brown;}
+div#board ul#board_ul li.column_li ul.dnd_column li.top_bar,
+div#board ul#board_ul li.column_li ul.dnd_column li.bar{width: 25px; height: 20px; background: gray; display: table; border: 0px solid grey;}
+
+div#board ul#board_ul li.column_li ul.dnd_column li.bar div.disc{background: red; height: 18px; border-radius: 15px; border: 1px solid red;}
+
+div#board ul#board_ul li.column_li ul.dnd_column li.bar div#disc_1{width: 70px;}
+div#board ul#board_ul li.column_li ul.dnd_column li.bar div#disc_2{width: 90px;}
+div#board ul#board_ul li.column_li ul.dnd_column li.bar div#disc_3{width: 110px;}
+div#board ul#board_ul li.column_li ul.dnd_column li.bar div#disc_4{width: 130px;}
+div#board ul#board_ul li.column_li ul.dnd_column li.bar div#disc_5{width: 150px;}

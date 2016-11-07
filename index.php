@@ -3,8 +3,12 @@
 <head>
 	<title>Hanoi Towers</title>
 	<link href="css/dnd.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+	<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.1.1.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>-->
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-migrate-1.1.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.2.js"></script>
 	<script type="text/javascript" src="js/dnd.js"></script>
 </head>
 <body>
@@ -33,7 +37,9 @@
 		<div style="clear: both;"></div>
 	</div>
 </div>
-<div id="scores_bar" class="scores_bar">
+<div id="scores_bar" class="scores_bar"></div>
+<div id="modal_confirm_yes_no" style="background: black; z-index: 110;">
+	dialog
 </div>
 </body>
 </html>

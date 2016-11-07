@@ -1,0 +1,33 @@
+body {}
+
+*{border: 0px solid #000;}
+
+dl, ol, ul, li{list-style: none; padding: 0px; margin: 0px; border: 0px; background: none;}
+
+#droppable{width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px;}
+
+div#board{min-width: 500px; min-height: 145px; background: #abc; padding:0 7px;}
+
+div#board ul#board_ul{}
+
+div#board ul#board_ul li.column_li{background: none; float: left;}
+div#board ul#board_ul .disk_column_one,
+div#board ul#board_ul .disk_column_two,
+div#board ul#board_ul .disk_column_three{}
+
+ul.dnd_column{}
+ul#sortable_column_one,
+ul#sortable_column_two,
+ul#sortable_column_three{}
+
+ul li ul li {margin: 1px auto;}
+ul li ul li.base{width: 175px; height: 25px; background: brown; margin: 0 auto;}
+ul li ul li.bar{width: 25px; height:20px; background: gray; display: table;}
+ul li ul li div.disc{background: red; height:20px; margin: 0 auto;}
+
+ul li ul li #disc_1{width: 70px;}
+ul li ul li #disc_2{width: 90px;}
+ul li ul li #disc_3{width: 110px;}
+ul li ul li #disc_4{width: 130px;}
+ul li ul li #disc_5{width: 150px;}
+
